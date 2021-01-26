@@ -9,15 +9,15 @@ using System.Linq;
 namespace AutoSell.Api.Controllers
 {
     [ApiController]
-    [Route("item")]
-    public class ItemController : ControllerBase
+    [Route("items")]
+    public class ItemsController : ControllerBase
     {
         #region Properties
         private IItemRepository ItemRepository { get; init; }
         #endregion
 
         #region Constructors
-        public ItemController(IItemRepository itemRepository)
+        public ItemsController(IItemRepository itemRepository)
         {
             ItemRepository = itemRepository;
         }
@@ -45,7 +45,5 @@ namespace AutoSell.Api.Controllers
             return ItemRepository.GetByStatus(Enumeration.GetAll<ItemStatusType>().Where(x => x.Id == id).FirstOrDefault());
         }
         #endregion
-
-
     }
 }

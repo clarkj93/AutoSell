@@ -10,7 +10,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace AutoSell.Data.Migrations
 {
     [DbContext(typeof(AutoSellContext))]
-    [Migration("20210115134249_init")]
+    [Migration("20210126214922_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -47,9 +47,9 @@ namespace AutoSell.Data.Migrations
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2021, 1, 15, 13, 42, 48, 478, DateTimeKind.Utc).AddTicks(3162),
+                            Created = new DateTime(2021, 1, 26, 21, 49, 22, 66, DateTimeKind.Utc).AddTicks(4407),
                             ItemStatusId = 1,
-                            LastUpdated = new DateTime(2021, 1, 15, 13, 42, 48, 478, DateTimeKind.Utc).AddTicks(4185)
+                            LastUpdated = new DateTime(2021, 1, 26, 21, 49, 22, 66, DateTimeKind.Utc).AddTicks(4692)
                         });
                 });
 
@@ -77,22 +77,22 @@ namespace AutoSell.Data.Migrations
                         new
                         {
                             Id = 1,
-                            Created = new DateTime(2021, 1, 15, 13, 42, 48, 475, DateTimeKind.Utc).AddTicks(2618),
-                            LastUpdated = new DateTime(2021, 1, 15, 13, 42, 48, 475, DateTimeKind.Utc).AddTicks(3593),
+                            Created = new DateTime(2021, 1, 26, 21, 49, 22, 64, DateTimeKind.Utc).AddTicks(9642),
+                            LastUpdated = new DateTime(2021, 1, 26, 21, 49, 22, 65, DateTimeKind.Utc).AddTicks(36),
                             Status = "Available"
                         },
                         new
                         {
                             Id = 2,
-                            Created = new DateTime(2021, 1, 15, 13, 42, 48, 475, DateTimeKind.Utc).AddTicks(4409),
-                            LastUpdated = new DateTime(2021, 1, 15, 13, 42, 48, 475, DateTimeKind.Utc).AddTicks(4412),
+                            Created = new DateTime(2021, 1, 26, 21, 49, 22, 65, DateTimeKind.Utc).AddTicks(380),
+                            LastUpdated = new DateTime(2021, 1, 26, 21, 49, 22, 65, DateTimeKind.Utc).AddTicks(383),
                             Status = "Not Available"
                         },
                         new
                         {
                             Id = 3,
-                            Created = new DateTime(2021, 1, 15, 13, 42, 48, 475, DateTimeKind.Utc).AddTicks(4414),
-                            LastUpdated = new DateTime(2021, 1, 15, 13, 42, 48, 475, DateTimeKind.Utc).AddTicks(4415),
+                            Created = new DateTime(2021, 1, 26, 21, 49, 22, 65, DateTimeKind.Utc).AddTicks(385),
+                            LastUpdated = new DateTime(2021, 1, 26, 21, 49, 22, 65, DateTimeKind.Utc).AddTicks(386),
                             Status = "Sold"
                         });
                 });

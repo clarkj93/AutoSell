@@ -46,22 +46,22 @@ namespace AutoSell.Data.Migrations
             migrationBuilder.InsertData(
                 table: "ItemsStatus",
                 columns: new[] { "Id", "Created", "LastUpdated", "Status" },
-                values: new object[] { 1, new DateTime(2021, 1, 15, 13, 42, 48, 475, DateTimeKind.Utc).AddTicks(2618), new DateTime(2021, 1, 15, 13, 42, 48, 475, DateTimeKind.Utc).AddTicks(3593), "Available" });
+                values: new object[] { 1, new DateTime(2021, 1, 26, 21, 49, 22, 64, DateTimeKind.Utc).AddTicks(9642), new DateTime(2021, 1, 26, 21, 49, 22, 65, DateTimeKind.Utc).AddTicks(36), "Available" });
 
             migrationBuilder.InsertData(
                 table: "ItemsStatus",
                 columns: new[] { "Id", "Created", "LastUpdated", "Status" },
-                values: new object[] { 2, new DateTime(2021, 1, 15, 13, 42, 48, 475, DateTimeKind.Utc).AddTicks(4409), new DateTime(2021, 1, 15, 13, 42, 48, 475, DateTimeKind.Utc).AddTicks(4412), "Not Available" });
+                values: new object[] { 2, new DateTime(2021, 1, 26, 21, 49, 22, 65, DateTimeKind.Utc).AddTicks(380), new DateTime(2021, 1, 26, 21, 49, 22, 65, DateTimeKind.Utc).AddTicks(383), "Not Available" });
 
             migrationBuilder.InsertData(
                 table: "ItemsStatus",
                 columns: new[] { "Id", "Created", "LastUpdated", "Status" },
-                values: new object[] { 3, new DateTime(2021, 1, 15, 13, 42, 48, 475, DateTimeKind.Utc).AddTicks(4414), new DateTime(2021, 1, 15, 13, 42, 48, 475, DateTimeKind.Utc).AddTicks(4415), "Sold" });
+                values: new object[] { 3, new DateTime(2021, 1, 26, 21, 49, 22, 65, DateTimeKind.Utc).AddTicks(385), new DateTime(2021, 1, 26, 21, 49, 22, 65, DateTimeKind.Utc).AddTicks(386), "Sold" });
 
             migrationBuilder.InsertData(
                 table: "Items",
                 columns: new[] { "Id", "Created", "ItemStatusId", "LastUpdated" },
-                values: new object[] { 1, new DateTime(2021, 1, 15, 13, 42, 48, 478, DateTimeKind.Utc).AddTicks(3162), 1, new DateTime(2021, 1, 15, 13, 42, 48, 478, DateTimeKind.Utc).AddTicks(4185) });
+                values: new object[] { 1, new DateTime(2021, 1, 26, 21, 49, 22, 66, DateTimeKind.Utc).AddTicks(4407), 1, new DateTime(2021, 1, 26, 21, 49, 22, 66, DateTimeKind.Utc).AddTicks(4692) });
 
             migrationBuilder.CreateIndex(
                 name: "IX_Items_ItemStatusId",
